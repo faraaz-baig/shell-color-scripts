@@ -23,7 +23,7 @@ Alternately, you could also install shell-color-scripts from the AUR using an AU
 
 Download the source code from this repository or use a git clone:
 
-	git clone https://gitlab.com/dwt1/shell-color-scripts.git
+	git clone https://github.com/faraaz-baig/shell-color-scripts.git
 	cd shell-color-scripts
     rm -rf /opt/shell-color-scripts || return 1
     sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
