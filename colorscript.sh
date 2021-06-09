@@ -29,7 +29,6 @@ function _random() {
 
     random_colorscript="$(echo  "${list_colorscripts}" | sed -n ${random_index}p \
         | tr -d ' ' | tr '\t' ' ' | cut -d ' ' -f 2)"
-    echo "${random_colorscript}"
     exec "${DIR_COLORSCRIPTS}/${random_colorscript}"
 }
 
